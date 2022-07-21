@@ -1,20 +1,54 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Survey form</title>
-        
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+       <h1 class="title">Your lifestyles survey form</form></h1>
+        <p class="description"><em>This is little survey about your lifestyle</em></p>
+        <div class="box">
+           <form class="surveyform">
+            <section>
+                <!-- name email and age inputs -->
+                <h3  class="nametitle">Name</h3>
+                <input class="name" type="text" placeholder="Enter your name" required>
+                <h3 class="emailtitle">Email</h3>
+                <input class="email" type="text" placeholder="Enter your email" required>
+                <h3 class="agetitle" required>Age(optional)</h3>
+                <input class="age" type="number" placeholder="Age">
+                <h3 for="roletitle" class="roletitle">Which option best describes your current role</h3>
+                <!-- current role options -->
+                <select class="dropdown" name="role" required>
+                    <option disabled selected value="Select an option"></option>
+                    <option value="Student">Student</option>
+                    <option value="Athlete">Athlete</option>
+                    <option value="Bussinesman">Bussinesman</option>
+                    <option value="Actor">Actor</option>
+                    <option value="Singer or Dancer">Singer or Dancer</option>
+                    <option value="Racing driver">Racing driver</option>
+                    <option value="ETC">ETC</option>
+                </select>
+                <h3 for="recommend" class="recommend">Would you recommend this survey to a friend?</h3><br>
+                <input type="radio" class="radio" name="yes-maybenot-no" value="yes" checked>Yes<br>
+                <input type="radio" class="radio" name="yes-maybenot-no" value="maybenot" checked>Maybe not<br>
+                <input type="radio" class="radio" name="yes-maybenot-no" value="no" checked>No<br>
+                <h3 class="improve">What would you like to improve<em>(check all that apply)</em></h3>
+                <input type="checkbox" class="checkbox" name="options" checked>More questions<br>
+                <input type="checkbox" class="checkbox" name="options" checked>Better site visuals<br>
+                <input type="checkbox" class="checkbox" name="options" checked>Improved ui<br>
+                <input type="checkbox" class="checkbox" name="options" checked>More options on professions
+                <h3 class="comments">Any comments or suggestions?</h3>
+                <textarea class="textarea" placeholder="Enter your comment here"></textarea>
+                <br>
+                <button class="submit" type="submit">Submit</button>
+            </section>
+
+        </div>
+    </form>
        
-        
-        <script src="" async defer></script>
     </body>
 </html>

@@ -1,0 +1,139 @@
+body{
+    background: url(https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.description{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+div.box{
+    background: rgb(12,5,45,0.5);
+    background: linear-gradient(180deg, rgba(12,5,45,0.7) 39%, rgba(12,5,45,1) 100%);
+    width: 700px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.surveyform{
+    color: white;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+/* name input */
+.name{
+    width: 550px;
+    height: 30px;
+    margin-left: 60px;
+    
+}
+
+h3.nametitle{
+    margin-left: 60px;
+    margin-bottom: auto;
+    
+}
+
+/* email input */
+.email{
+    width: 550px;
+    height: 30px;
+    margin-left: 60px;
+    
+}
+
+h3.emailtitle{
+    padding-top: 20px;
+    margin-left: 60px;
+    margin-bottom: auto;
+}
+
+/* age input */
+.age{
+    width: 550px;
+    height: 30px;
+    margin-left: 60px;
+}
+
+h3.agetitle{
+    padding-top: 20px;
+    margin-left: 60px;
+    margin-bottom: auto;
+}
+
+/* role input */
+.dropdown{
+    width: 550px;
+    height: 30px;
+    margin-left: 60px;
+}
+
+h3.roletitle{
+    padding-top: 20px;
+    margin-left: 60px;
+    margin-bottom: auto;
+}
+
+/* recommend input */
+h3.recommend{
+    padding-top: 20px;
+    margin-left: 60px;
+    margin-bottom: auto;
+}
+
+.radio{
+    margin-left: 60px;
+    
+}
+
+/* checkboxes*/
+h3.improve{
+    padding-top: 20px;
+    margin-left: 60px;
+    margin-bottom: auto;
+}
+
+.checkbox{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+/* textarea */
+
+h3.comments{
+    padding-top: 20px;
+    margin-left: 60px;
+    margin-bottom: auto;
+}
+
+.textarea{
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 500px;
+    height: 100px;
+}
+
+/* button */
+
+.submit{
+    background-color: green;
+    color: white;
+    margin-left: 140px;
+    margin-top: 30px;
+    width: 400px;
+    height: 30px;
+}
